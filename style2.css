@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,500&family=Open+Sans:ital,wght@1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+h1{
+    font-size: 300px;
+    color: white;
+    text-shadow: 5px 5px 10px #000;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%; 
+    /* overflow: hidden; */
+    object-fit: cover;
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.logo{
+    width: 80px;
+    height: auto;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    
+}
+.navbar li a:hover{
+    border-bottom: 2px rgb(255, 255, 255);
+    color: white;
+    font-weight: 900;
+}
+.ssj1{
+    width: 507px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+
+}
+.one h1{
+    font-family: 'Nunito Sans', sans-serif;
+    transition: 0.6s ease;
+}
+.one a{
+    text-decoration: none;
+}
+.one h1:hover{
+    color: black;
+}
+.two{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.four{
+    display: block;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.edu{
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    margin-top: 100px;
+    display: flexbox;
+}
+.dbz{
+    width: 500px;
+    transition: 0.3s ease;
+}
+.dbz:hover{
+    width: 700px;
+}
+.db:hover{
+    width: 700px;
+}
+.dbs:hover{
+    width: 700px;
+}
+.db{
+    width: 500px;
+    transition: 0.3s ease;
+}
+.dbs{
+    width: 500px;
+    transition: 0.3s ease;
+}
+.five{ 
+    justify-content: space-between;
+    padding: 5%;
+}
+.two h2{
+    color: white;
+}
+.two{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.goku-kid{
+    width: 600px;
+}
+.two h1{
+    font-size: 200px;
+    padding-bottom: 10px;
+    transition: 0.6s ease;
+    text-decoration: none;
+}
+.four{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.four h1{
+    font-size: 200px;
+    padding-bottom: 10px;
+    transition: 0.6s ease;
+    text-decoration: none;
+}
+.four a{
+    text-decoration: none;
+}
+.four h1:hover{
+    font-size: 220px;
+    text-decoration: none;
+}
+.four h2{
+    color: white;
+}
+.goku-bio{
+    width: 600px;
+}
+.five{
+    display: flex;
+    text-align: center; 
+}
+.five h1{
+    margin-left: 250px;
+}
+.five div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+.six div{
+    display: inline-block ;
+}
+.six{
+    /* text-align: center;
+    display: flex;
+    align-items: center; */
+    padding-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.six h1{
+    font-size: 175px;
+    padding-bottom: 10px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.six h1:hover{
+    font-size: 180px;
+    text-decoration: none;
+}
+.six h2{
+    color: white;
+    padding-left: 0;
+    text-align: center;
+}
+.edu a{
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.edu a:hover{
+    font-size: 600px;
+    text-decoration: none;
+}
+.goku-push{
+    width: 600px;
+    padding: 0;
+}
+.seven div{
+    display: inline-block ;
+}
+.seven{
+    /* text-align: center;
+    display: flex;
+    align-items: center; */
+    padding-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.seven img{
+    width: 600px;
+    transition: 0.6s ease;
+}
+
+.seven h1{
+    font-size: 175px;
+    padding-bottom: 10px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+.seven h1:hover{
+    font-size: 180px;
+    text-decoration: none;
+}
+.seven h2{
+    color: white;
+    padding-left: 0;
+    text-align: center;
+    padding-right: 50px;
+}
+.skills a{
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.skills a:hover{
+    font-size: 600px;
+    text-decoration: none;
+}
+.eight div{
+    text-align: center;
+}
+.eight h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 5px 5px 10px #000;
+    transition: 0.6s ease;
+}
+.eight h3{
+    font-size: 30px;
+    color: white;
+}
+.eight a{
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.eight h2:hover{
+    font-size: 170px;
+}
+.goku-fight{
+    width: 600px;
+}
+.nine h1{
+    font-size: 150px;
+    transition: 0.6s ease;
+}
+.nine h1:hover{
+    font-size: 200px;
+}
+.nine div{
+    text-align: center;
+}
+.nine a{
+    text-decoration: none;
+}
+.ten div{
+    text-align: center;
+}
+button img{
+    width: 50px;
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+.searchbar {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.589);
+    background-clip: padding-box;
+    line-height: 1.5;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.searchbar button img{
+    width: 45px;
+    rotate: -90deg;
+}
+.searchbar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.search{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.search h2{
+    font-family: 'Nunito Sans', sans-serif;
+    color: white ;
+    padding: 15px;
+}
